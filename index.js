@@ -28,6 +28,28 @@ const Fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 
 // Slice Method
  
-const result = Fruits.slice(1,3)
+// const result = Fruits.slice(1,3)
+// console.log(result);
+// console.log(Fruits)
+
+// Splice Method - 
+// const result = Fruits.splice(index,noOfRemovedItems, "newItems")
+// const result = Fruits.splice()
+// console.log(result);
+// console.log(Fruits)
+
+// Concat Method - to add items in end of an Array
+
+// const result = Fruits.concat("Faisal", "Mashum")
+// console.log(result);
+// console.log(Fruits)
+
+// Push Method 
+// const result = Fruits.push("Faisal", "Mashum")
+// console.log(result);
+// console.log(Fruits)
+
+// Map Method
+const result = Fruits.map((f)=> `${f}`)
 console.log(result);
 console.log(Fruits)

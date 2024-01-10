@@ -50,6 +50,24 @@ const Fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // console.log(Fruits)
 
 // Map Method
-const result = Fruits.map((f)=> `${f}`)
-console.log(result);
-console.log(Fruits)
+// const result = Fruits.map((f)=> `${f}`)
+// console.log(result);
+// console.log(Fruits)
+
+// Reduce Method
+
+// const numbers = [10,20,30];
+
+// const result = Fruits.reduce((total, item)=> total + item);
+
+// console.log(result);
+
+// For of Method
+const numbers = [10,20,30];
+
+for( num of numbers){
+    console.log(num)
+}
+
+
+
